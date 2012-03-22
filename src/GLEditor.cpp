@@ -15,10 +15,11 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 #ifndef __APPLE__
-#include <GL/glut.h>
+	#include <glut.h>
 #else
-#include <GLUT/glut.h>
+	#include <GLUT/glut.h>
 #endif
+
 #include <iostream>
 #include <vector>
 

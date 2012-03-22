@@ -12,7 +12,7 @@
 
 // for mapping special keys
 #ifndef __APPLE__
-	#include <GL/glut.h>
+	#include <glut.h>
 #else
 	#include <GLUT/glut.h>
 #endif
