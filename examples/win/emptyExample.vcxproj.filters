@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="..\..\src\ClipBoard.cpp">
+      <Filter>ofxGlEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GLEditor.cpp">
+      <Filter>ofxGlEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ofxGLEditor.cpp">
+      <Filter>ofxGlEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\PolyGlyph.cpp">
+      <Filter>ofxGlEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Unicode.cpp">
+      <Filter>ofxGlEditor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="..\..\src\ClipBoard.h">
+      <Filter>ofxGlEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GLEditor.h">
+      <Filter>ofxGlEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ofxGLEditor.h">
+      <Filter>ofxGlEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\PolyGlyph.h">
+      <Filter>ofxGlEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Unicode.h">
+      <Filter>ofxGlEditor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ofxGlEditor">
+      <UniqueIdentifier>{c47255db-9d85-4dd6-bd1c-375275e67d4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
